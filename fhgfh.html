@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Ricardo Melo</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="contacts"></div>
+
+    <h1>Ricardo Melo</h1>
+    
+    <p><strong>Triagem Automatizada em Plantas de Reciclagem</strong> Triagem Automatizada em Plantas de Reciclagem</p>
+    <p>Tecnologia nas esteiras de separação. Como sensores de luz infravermelha identificam instantaneamente o material da roupa (nylon, algodão, acrílico) quando os usuários cortam as etiquetas.</p>
+
+    <h2>Quiz</h2>
+    <p>Olá! Eu sou o Ricardo Melo, responsável por separar materiais em uma usina de reciclagem. Minha pergunta é: como a triagem automatizada ajuda a aumentar a eficiência e reduzir os erros na separação dos resíduos recicláveis?</p>
+
+    <button onclick="answerQuiz(true, 'id_deste_npc', ['id_do_npc_que_vai_desbloquear'])">
+        A) A triagem automatizada utiliza sensores, câmeras e inteligência artificial para identificar e separar diferentes tipos de materiais com rapidez e precisão. Isso reduz erros, aumenta a quantidade de resíduos reciclados e melhora a eficiência da planta de reciclagem.
+    </button>
+    
+    <button onclick="answerQuiz(false, 'id_deste_npc')">
+        B) A triagem automatizada funciona queimando todos os resíduos primeiro e depois misturando as cinzas para produzir novos materiais recicláveis. Por isso, não é necessário separar plástico, vidro ou metal.
+    </button>
+
+    <hr style="margin-top: 40px; opacity: 0.2;">
+    <button onclick="window.location.href='../index.html'" style="background: #fff; color: #333;">
+        ↩️ Voltar ao Painel Principal
+    </button>
+
+    <script src="../js/game.js"></script>
+    <script src="../js/contacts.js"></script>
+    <script src="../js/quiz.js"></script>
+    <script>renderContacts("contacts");</script>
+</body>
+</html>
